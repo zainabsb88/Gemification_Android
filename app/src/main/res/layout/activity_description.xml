@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:padding="10dp"
+    android:background="#fff"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="rootflyinfo.com.gamification.Description" tools:ignore="MergeRootFrame" >
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="12dp"
+        android:padding="3dp"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_custom"
+        android:layout_marginTop="10dp"
+        android:indeterminateOnly="false"
+        android:id="@+id/progressBar"
+        android:layout_gravity="left|top" />
+</FrameLayout>

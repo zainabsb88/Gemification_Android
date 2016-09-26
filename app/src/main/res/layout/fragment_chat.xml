@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#435468"
+    android:id="@+id/chart_back"
+    tools:context="rootflyinfo.com.drawermenu.Chat">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView5"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:background="#435468"
+        android:layout_above="@+id/editText3"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:maxLines="1"
+        android:hint="Enter a message here...."
+        android:padding="10dp"
+        android:background="@color/white"
+        android:id="@+id/editText3"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button8"
+        android:layout_toStartOf="@+id/button8"
+        android:layout_marginLeft="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="New Button"
+        android:background="@color/blue"
+        android:id="@+id/button8"
+        android:src="@mipmap/attachment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginRight="20dp" />
+</RelativeLayout>

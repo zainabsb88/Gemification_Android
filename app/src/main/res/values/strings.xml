@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Gamification</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="yellow">#E6AD22</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#70BF56</color>
+    <color name="light_white">#F1F1F2</color>
+    <color name="grey">#f3f3f4</color>
+    <color name="blue">#5397D1</color>
+    <color name="dark_grey">#6d6e71</color>
+    <color name="dark_blue">#364150</color>
+    <color name="active_color">#FFC107</color>
+    <color name="hover">#2C3542</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_description">Description</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_aoadashboard">Dashboard</string>
+    <string-array name="company">
+        <item>Select a company</item>
+        <item>Company 1</item>
+        <item>Company 2</item>
+        <item>Company 3</item>
+    </string-array>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_splash_screen">Gamification</string>
+    <string name="title_activity_basic">Basic</string>
+</resources>

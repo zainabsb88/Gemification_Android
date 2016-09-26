@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:id="@+id/login_main"
+    tools:context="rootflyinfo.com.aoa.Login$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:padding="20dp"
+        android:background="@drawable/round_corner"
+        android:id="@+id/relative_login"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+   <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="Sign In "
+            android:textColor="@color/white"
+            android:background="@drawable/button_rounded_yellow"
+            android:id="@+id/button7"
+       android:layout_below="@+id/editText"
+       android:layout_alignRight="@+id/editText"
+       android:layout_alignEnd="@+id/editText"
+       android:layout_marginTop="26dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not a member? "
+            android:gravity="end"
+            android:id="@+id/textView42"
+            android:layout_below="@+id/button7"
+            android:layout_toLeftOf="@+id/button7"
+            android:layout_toStartOf="@+id/button7"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:text=" Join now"
+            android:gravity="center"
+            android:id="@+id/textView43"
+            android:autoText="true"
+            android:layout_alignTop="@+id/textView42"
+            android:layout_toRightOf="@+id/textView42"
+            android:layout_toEndOf="@+id/textView42" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:drawableLeft="@mipmap/ic_lock"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="@drawable/login_edittext"
+            android:layout_below="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:drawableLeft="@mipmap/ic_user"
+            android:paddingLeft="10dp"
+            android:hint="Email Address"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:background="@drawable/login_edittext"
+            android:linksClickable="false"
+            android:layout_below="@+id/spinner3"
+            android:layout_alignLeft="@+id/spinner3"
+            android:layout_alignStart="@+id/spinner3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Login"
+            android:textAllCaps="true"
+            android:id="@+id/textView44"
+            android:textColor="@color/yellow"
+            android:textStyle="normal"
+            android:layout_alignLeft="@+id/textView45"
+            android:layout_alignStart="@+id/textView45"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView45"
+            android:layout_alignEnd="@+id/textView45"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:id="@+id/textView45"
+            android:layout_below="@+id/textView42"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue" />
+
+        <Spinner
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/login_edittext"
+            android:id="@+id/spinner3"
+            android:entries="@array/company"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView44"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
